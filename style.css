@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+  background-color: #204A5F;
+  text-align: left;
+  padding-left: 50px;
+  color: white;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+  audio{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    /* display:none; */
+  }
+
+.background{
+    /* width:1512px;
+    height:886px; */
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./banner-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+  }
+
+/*icon-part*/
+  .momo{
+    background-size: 100px;
+    width:100px;
+    position: absolute;
+    top:60%;
+    left:57%;
+  }
+
+  .momo:hover{
+      transform: scale(0.85);
+    }
+
+  .vic{
+    background-size: 100px;
+    width:110px;
+    position: absolute;
+    top:21%;
+    left:64%;
+  }
+
+  .vic:hover{
+    transform: scale(0.85);
+  }
+  .ceci{
+    background-size: 100px;
+    width:100px;
+    position: absolute;
+    top:55%;
+    left:21%;
+  }
+  .ceci:hover{
+    transform: scale(0.85);
+  }
+  /*icon-part*/
+
+
+  /* audio part */
+  
+  .bg-music-control {
+    width: min-content;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  
+  .bg-music-control:hover {
+    filter: brightness(0.8);
+  }
+  
+  /* .bg-music {
+    display: none;
+  } */
+
+
+/* for animation */
+#noodles{
+  position: fixed;
+  top: 60%;
+  left:0%;
+}
+
+#Onigiri {
+  position: fixed;
+  top:35%;
+  right:5%;
+}
+
+#hero{
+  position: fixed;
+  top:65%;
+  right:5%;
+}
